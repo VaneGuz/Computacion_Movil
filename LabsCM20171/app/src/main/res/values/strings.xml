@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Mi Primera App</string>
+    <string name="personalInformation_tittle">Información Personal</string>
+    <string name="name">Nombres</string>
+    <string name="last_name">Apellidos</string>
+    <string name="sex">Sexo</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="birthdate">Fecha de nacimiento</string>
+    <string name="school_grade">Grado de escolaridad</string>
+    <string name="next">Siguiente</string>
+    <string name="primary">Primaria</string>
+    <string name="university">Universidad</string>
+    <string name="high_school">Secundaria</string>
+    <string name="other">Otro</string>
+    <string name="telephone">Teléfono</string>
+    <string name="email">Correo</string>
+    <string name="address">Dirección</string>
+    <string name="country">País</string>
+    <string name="city">Ciudad</string>
+    <string name="hobbies">Pasatiempos</string>
+    <string name="read">Leer</string>
+    <string name="watch_tv">Ver televisión</string>
+    <string name="dance">Bailar</string>
+    <string name="sing">Cantar</string>
+    <string name="swim">Nadar</string>
+    <string name="show">Mostrar</string>
+    <string name="datepicker">Fecha</string>
+</resources>

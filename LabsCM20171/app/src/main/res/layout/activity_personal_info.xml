@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginTop="27dp"
+        android:text="@string/personalInformation_tittle" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/last_name"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textCapSentences"
+        android:textSelectHandle="@string/university" />
+
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewSexo"
+        android:layout_below="@+id/name"
+        android:ems="10"
+        android:hint="@string/last_name"
+        android:inputType="textCapSentences" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="26dp"
+        >
+
+        <TextView
+            android:id="@+id/textViewSexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/male"
+            android:layout_alignStart="@+id/textViewFechaNaci"
+            android:layout_marginStart="16dp"
+            android:text="@string/sex" />
+
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textViewFechaNaci"
+            android:layout_marginBottom="11dp"
+            android:layout_marginStart="44dp"
+            android:layout_toEndOf="@+id/textViewSexo"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/male"
+            android:layout_alignBottom="@+id/male"
+            android:layout_toEndOf="@+id/male"
+            android:text="@string/female" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="26dp"
+        >
+
+        <TextView
+            android:id="@+id/textViewFechaNaci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textViewEscolaridad"
+            android:layout_centerVertical="true"
+            android:layout_weight="2"
+            android:text="@string/birthdate" />
+        <Button
+            android:text="@string/datepicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:onClick="fechadenacimiento"
+            android:id="@+id/buttonfecha"
+            android:layout_alignBaseline="@+id/textViewFechaNaci"
+            android:layout_alignBottom="@+id/textViewFechaNaci"
+            android:layout_toEndOf="@+id/textView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="26dp">
+
+        <TextView
+            android:id="@+id/textViewEscolaridad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewFechaNaci"
+            android:layout_centerVertical="true"
+            android:layout_weight="2"
+            android:text="@string/school_grade" />
+
+        <Spinner
+            android:id="@+id/spinner_schoolGrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textViewEscolaridad"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@+id/male"
+            android:layout_weight="2"
+            android:entries="@array/school_grade" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/personalToContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="21dp"
+        android:onClick="sendMessage"
+        android:text="@string/next" />
+
+        </LinearLayout>
+
+</LinearLayout>

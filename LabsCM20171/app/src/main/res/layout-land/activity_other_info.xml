@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:id="@+id/activity_other_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="co.edu.udea.compumovil.gr05_20171.lab1.OtherInfo">
+
+    <TextView
+        android:text="@string/hobbies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textViewPasatiempo"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/checkBoxLeer"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBoxLeer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewPasatiempo"
+            android:text="@string/read"
+            android:textSize="24sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBarleer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/checkBoxLeer"
+            android:layout_alignStart="@+id/ratingBarvertv"
+            android:layout_marginStart="14dp"
+            android:minHeight="43dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBoxVerTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingBarleer"
+            android:layout_marginTop="17dp"
+            android:layout_toStartOf="@+id/ratingBarleer"
+            android:text="@string/watch_tv"
+            android:textSize="24sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBarvertv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/checkBoxVerTv"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="13dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBoxCantar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ratingBarBailar"
+            android:layout_marginTop="13dp"
+            android:text="@string/sing"
+            android:textSize="24sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBarCantar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/ratingBarBailar"
+            android:layout_below="@+id/ratingBarBailar" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBoxBailar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="@string/dance"
+            android:textSize="24sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBarBailar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:id="@+id/checkBoxNadar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/checkBoxCantar"
+            android:layout_below="@+id/ratingBarCantar"
+            android:layout_marginTop="25dp"
+            android:text="@string/swim"
+            android:textSize="24sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBarNadar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/ratingBarCantar"
+            android:layout_below="@+id/ratingBarCantar"
+            android:layout_marginTop="14dp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:text="@string/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/ratingBarleer"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/buttonmostrar" />
+
+</LinearLayout>
+
+</ScrollView>

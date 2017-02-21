@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="school_grade">
+        <item>@string/primary</item>
+        <item>@string/high_school</item>
+        <item>@string/university</item>
+        <item>@string/other</item>
+    </string-array>
+    <string-array name="paises_arrays">
+        <item>Colombia</item>
+        <item>Brasil</item>
+        <item>Argentina</item>
+        <item>Mexico</item>
+        <item>Bolivia</item>
+        <item>Ecuador</item>
+        <item>Venezuela</item>
+        <item>Chile</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Guyana Francesa</item>
+        <item>Granada</item>
+        <item>Guatemala</item>
+        <item>Guyana</item>
+        <item>haiti</item>
+        <item>Honduras</item>
+        <item>Jamaica</item>
+        <item>Nicaragua</item>
+        <item>Paraguay</item>
+        <item>Panama</item>
+        <item>Peru</item>
+        <item>Puerto Rico</item>
+        <item>Republica Dominicana</item>
+        <item>Surinam</item>
+        <item>Uruguay</item>
+    </string-array>
+    <string-array name="ciudades_arrays">
+        <item>Bogota</item>
+        <item>Medellin</item>
+        <item>Cali</item>
+        <item>Barranquilla</item>
+        <item>Cartagena</item>
+        <item>Manizales</item>
+        <item>soledad</item>
+        <item>Cucuta</item>
+        <item>Ibague</item>
+        <item>Soacha</item>
+        <item>Bucaramanga</item>
+        <item>Santa Marta</item>
+        <item>Villavicencio</item>
+        <item>Bello</item>
+        <item>Valledupar</item>
+        <item>Pereira</item>
+        <item>Buenaventura</item>
+        <item>Pasto</item>
+        <item>Manizales</item>
+        <item>Monteria</item>
+        <item>Neiva</item>
+    </string-array>
+
+</resources>

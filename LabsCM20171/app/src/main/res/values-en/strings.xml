@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="personalInformation_tittle">Personal Information</string>
+    <string name="name">Name</string>
+
+    <string name="last_name">Last Name</string>
+    <string name="sex">Sex</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="school_grade">School Grade</string>
+    <string name="next">Next</string>
+    <string name="university">University</string>
+    <string name="high_school">High School</string>
+    <string name="primary">Primary</string>
+    <string name="other">Other</string>
+    <string name="telephone">Telephone</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="dance">Dance</string>
+    <string name="read">Read</string>
+    <string name="watch_tv">Watch Television</string>
+    <string name="sing">Sing</string>
+    <string name="swim">Swim</string>
+    <string name="show">Show</string>
+    <string name="datepicker">Date</string>
+</resources>
